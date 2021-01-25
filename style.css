@@ -23,6 +23,10 @@ body {
   position: relative;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: #52d3aa;
   -webkit-transition: 0.5s;
@@ -459,7 +463,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   margin-top: -150px;
   z-index: 10;
-  padding-bottom: 7em;
+  padding-bottom: 0em;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro {
@@ -481,7 +485,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   text-align: center;
   font-size: 16px;
-  min-height: 300px;
+  min-height: 100%;
   vertical-align: middle;
   padding: 40px;
   background: #fff;
@@ -499,6 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
     width: 100%;
+    min-height: 300px;
   }
 }
 #fh5co-intro .fh5co-block > .overlay-darker {
@@ -1375,11 +1380,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row-bottom-padded-lg {
-  padding-bottom: 7em;
+  padding-bottom: 0em;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-lg {
-    padding-bottom: 2em;
+    padding-bottom: 0.5em;
   }
 }
 
