@@ -23,6 +23,10 @@ body {
   position: relative;
 }
 
+.cta-btn {
+  margin-top: 1em;
+}
+
 html {
   scroll-behavior: smooth;
 }
